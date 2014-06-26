@@ -15,3 +15,5 @@ git clone https://github.com/chia-chun/.emacs.d ~/.emacs.d
 cp ~/setup/.Xmodmap ~/
 # The .xinitrc makes .Xmodmap working when starting X.
 cp ~/setup/.xinitrc ~/
+# Default .bashrc
+cp ~/setup/.bashrc ~/
