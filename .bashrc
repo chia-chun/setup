@@ -112,3 +112,5 @@ fi
 if [ -e /usr/share/terminfo/x/xterm-256color -o -e /lib/terminfo/x/xterm-256color ] && [ "$COLORTERM" == "xfce4-terminal" ]; then
     export TERM=xterm-256color
 fi
+
+alias ew="emacs -nw"
