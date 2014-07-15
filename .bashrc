@@ -114,3 +114,4 @@ if [ -e /usr/share/terminfo/x/xterm-256color -o -e /lib/terminfo/x/xterm-256colo
 fi
 
 alias ew="emacs -nw"
+alias gitpo="git pull origin master"
