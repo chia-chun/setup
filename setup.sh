@@ -11,6 +11,7 @@ sudo apt-get install -y emacs-goodies-el
 sudo apt-get install -y geiser
 sudo apt-get install -y ess
 sudo Rscript "init.R"
+sudo apt-get autoremove
 git config --global user.name "chia-chun"
 git config --global user.email chia-chun@users.noreply.github.com
 git clone https://github.com/chia-chun/.emacs.d ~/.emacs.d
