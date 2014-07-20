@@ -115,3 +115,4 @@ fi
 
 alias ew="emacs -nw"
 alias gitpo="git pull origin master"
+alias gitpu="git push origin master"
