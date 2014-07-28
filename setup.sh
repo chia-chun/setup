@@ -9,6 +9,7 @@ sudo apt-get install -y emacs24 #"emacs" would install emacs 23 on 2014-5-19
 sudo apt-get install -y guile-2.0
 sudo apt-get install -y guile-2.0-dev
 sudo apt-get install -y guile-cairo
+sudo apt-get install -y gnuplot
 sudo apt-get install -y r-base
 sudo apt-get install -y emacs-goodies-el
 sudo apt-get install -y geiser
