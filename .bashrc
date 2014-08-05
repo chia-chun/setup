@@ -113,6 +113,7 @@ if [ -e /usr/share/terminfo/x/xterm-256color -o -e /lib/terminfo/x/xterm-256colo
     export TERM=xterm-256color
 fi
 
+alias em="emacs"
 alias ew="emacs -nw"
 alias gitpo="git pull origin master"
 alias gitpu="git push origin master"
