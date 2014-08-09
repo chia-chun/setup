@@ -3,7 +3,7 @@
 # 2. visudo to put current user in the sudoer list
 # 3. make sure that /etc/apt/sources.list is up-to-date and targeting testing
 sudo apt-get update
-# sudo apt-get dist-upgrade -y
+sudo apt-get dist-upgrade -y
 sudo apt-get install -y autoconf
 sudo apt-get install -y emacs24 #"emacs" would install emacs 23 on 2014-5-19
 sudo apt-get install -y guile-2.0
