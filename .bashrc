@@ -108,8 +108,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-#default 256 color in xfce4 terminal emulator
-if [ -e /usr/share/terminfo/x/xterm-256color -o -e /lib/terminfo/x/xterm-256color ] && [ "$COLORTERM" == "xfce4-terminal" ]; then
+#default 256 color in gnome terminal emulator
+if [ -e /usr/share/terminfo/x/xterm-256color -o -e /lib/terminfo/x/xterm-256color ] && ["COLORTERM" == "gnome-terminal"]; then
     export TERM=xterm-256color
 fi
 
