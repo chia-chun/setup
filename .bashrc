@@ -109,7 +109,7 @@ if ! shopt -oq posix; then
   fi
 fi
 #default 256 color in gnome terminal emulator
-if [ -e /usr/share/terminfo/x/xterm-256color -o -e /lib/terminfo/x/xterm-256color ] && ["COLORTERM" == "gnome-terminal"]; then
+if [ -e /usr/share/terminfo/x/xterm-256color -o -e /lib/terminfo/x/xterm-256color ] && [ $COLORTERM == "gnome-terminal" ]; then
     export TERM=xterm-256color
 fi
 
