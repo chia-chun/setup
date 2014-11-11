@@ -20,13 +20,8 @@ sudo apt-get autoremove -y
 git config --global user.name "chia-chun"
 git config --global user.email chia-chun@users.noreply.github.com
 git clone https://github.com/chia-chun/.emacs.d ~/.emacs.d
-# The .Xmodmap swaps Ctrl and Alt, CapsLock and Escape.
-cp ~/setup/.Xmodmap ~/
-# The .xinitrc makes .Xmodmap working when starting X.
-# cp ~/setup/.xinitrc ~/
-# The above line is not needed in GNOME, which loads .Xmodmap directly.
-# But the line below is needed, otherwise the gnome-settings-daemon will
-# override the .Xmodmap setting.
-gsettings set org.gnome.settings-daemon.plugins.keyboard active false
+
+# xkb setting /usr/share/X11/xkb/symbols/pc
+
 # Default .bashrc
 cp ~/setup/.bashrc ~/
