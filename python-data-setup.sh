@@ -10,3 +10,4 @@ pip install pytz
 pip install tornado
 pip install pyparsing
 pip install matplotlib
+pip install pillow
