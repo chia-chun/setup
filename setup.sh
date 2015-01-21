@@ -12,6 +12,7 @@ sudo apt-get install -y guile-2.0
 sudo apt-get install -y guile-2.0-dev
 sudo apt-get install -y guile-cairo
 sudo apt-get install -y gnuplot
+sudo apt-get install -y tk-dev
 sudo apt-get install -y r-base
 sudo apt-get install -y emacs-goodies-el
 sudo apt-get install -y geiser
